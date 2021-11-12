@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		30887B73E3C5794206F6138C /* Pods_SpotifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4CB96F63FECEAC08ECAD0C /* Pods_SpotifyTests.framework */; };
 		53C83812252DFAF069F18C5D /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4832356BC5DA132720738C6 /* Pods_Spotify.framework */; };
+		CA434D6F273E5F2A00F5F7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA434D6E273E5F2A00F5F7FF /* LaunchScreen.storyboard */; };
 		F82DDF8CB887BD049C484F6C /* Pods_Spotify_SpotifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4F7F3E0A232F8B9C57830D /* Pods_Spotify_SpotifyUITests.framework */; };
 		FB32911B273DCEDC000AB04A /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32911A273DCEDC000AB04A /* NewReleasesResponse.swift */; };
 		FB32911D273DCFAC000AB04A /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32911C273DCFAC000AB04A /* APIImage.swift */; };
@@ -17,7 +18,6 @@
 		FBD5F015273D656F00C5ECEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F014273D656F00C5ECEE /* SceneDelegate.swift */; };
 		FBD5F017273D656F00C5ECEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F016273D656F00C5ECEE /* HomeViewController.swift */; };
 		FBD5F01C273D657000C5ECEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD5F01B273D657000C5ECEE /* Assets.xcassets */; };
-		FBD5F01F273D657000C5ECEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD5F01D273D657000C5ECEE /* LaunchScreen.storyboard */; };
 		FBD5F02A273D657000C5ECEE /* SpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F029273D657000C5ECEE /* SpotifyTests.swift */; };
 		FBD5F034273D657000C5ECEE /* SpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F033273D657000C5ECEE /* SpotifyUITests.swift */; };
 		FBD5F036273D657000C5ECEE /* SpotifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5F035273D657000C5ECEE /* SpotifyUITestsLaunchTests.swift */; };
@@ -65,6 +65,7 @@
 		AC4F7F3E0A232F8B9C57830D /* Pods_Spotify_SpotifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify_SpotifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF33ED2DCD70AC2AFEB75A3C /* Pods-SpotifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyTests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyTests/Pods-SpotifyTests.release.xcconfig"; sourceTree = "<group>"; };
 		C80E20AB068CCB305647F6C7 /* Pods-Spotify-SpotifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-SpotifyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Spotify-SpotifyUITests/Pods-Spotify-SpotifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA434D6E273E5F2A00F5F7FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5127BC2FB0DFD8D6947870 /* Pods-Spotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.release.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.release.xcconfig"; sourceTree = "<group>"; };
 		CDC558F8CCB7A44F43356E2A /* Pods-Spotify-SpotifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-SpotifyUITests.release.xcconfig"; path = "Target Support Files/Pods-Spotify-SpotifyUITests/Pods-Spotify-SpotifyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D12C604DC8AA58958B73AC80 /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		FBD5F014273D656F00C5ECEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FBD5F016273D656F00C5ECEE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FBD5F01B273D657000C5ECEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBD5F01E273D657000C5ECEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD5F020273D657000C5ECEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD5F025273D657000C5ECEE /* SpotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD5F029273D657000C5ECEE /* SpotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTests.swift; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 		FBD5F045273D65A700C5ECEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FBD5F01D273D657000C5ECEE /* LaunchScreen.storyboard */,
+				CA434D6E273E5F2A00F5F7FF /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -406,8 +406,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD5F01F273D657000C5ECEE /* LaunchScreen.storyboard in Resources */,
 				FBD5F01C273D657000C5ECEE /* Assets.xcassets in Resources */,
+				CA434D6F273E5F2A00F5F7FF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,17 +595,6 @@
 			targetProxy = FBD5F030273D657000C5ECEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FBD5F01D273D657000C5ECEE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBD5F01E273D657000C5ECEE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FBD5F037273D657000C5ECEE /* Debug */ = {
